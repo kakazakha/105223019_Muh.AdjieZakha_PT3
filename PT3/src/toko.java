@@ -46,10 +46,10 @@ public class toko {
             "Yaaah, Member yuu biar dapet diskon lebih!";
         
         System.out.println("\n=== Detail Pembayaran ===");
-        System.out.printf("Total Belanja: Rp. ", belanja);
-        System.out.printf("Diskon Utama: ", discutama * 100);
-        System.out.printf("Diskon Member: ", discmember * 100);
-        System.out.printf("Total Pembayaran: Rp. ", totalakhir);
+        System.out.println("Total Belanja: Rp. " + belanja);
+        System.out.println("Diskon Utama: " + discutama * 100);
+        System.out.println("Diskon Member: " + discmember * 100);
+        System.out.println("Total Pembayaran: Rp. " + totalakhir);
         System.out.println(pesandisc);
         
         input.close();
